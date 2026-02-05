@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['Jeff_Text_Tips.pyw'],
+    ['A_Jeff_Text_Tips.pyw'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='Jeff_Text_Tips',
+    name='A_Jeff_Text_Tips',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

@@ -3,7 +3,6 @@ from tkinter import font
 import tkinter.font as tkFont
 import winreg
 import sys
-import os
 import ctypes
 from ctypes import wintypes
 
@@ -115,7 +114,7 @@ key_descriptions = {
 
 # 创建窗口
 window = tk.Tk()
-window.title("Text Tips")
+window.title("A_Jeff_Text_Tips")
 window.overrideredirect(True)        # 去掉边框和标题栏
 window.attributes("-alpha", 1.0)     # 完全不透明
 window.update_idletasks()
@@ -217,7 +216,7 @@ window.bind("<ButtonRelease-1>", onmouseup)
 def setup_auto_startup():
     # 获取当前程序路径
     current_exe = sys.executable
-    app_name = "Jeff_Text_Tips"
+    app_name = "A_Jeff_Text_Tips"
     
     # 设置开机自启动
     set_auto_startup(app_name, current_exe)

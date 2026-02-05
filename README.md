@@ -6,4 +6,4 @@
 
 # 打包
 
-`pyinstaller --onefile --hidden-import=tk Jeff_Text_Tips.pyw`
+`pyinstaller --onefile --hidden-import=tk A_Jeff_Text_Tips.pyw`
