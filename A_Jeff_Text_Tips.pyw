@@ -132,7 +132,7 @@ except:
     pass
 
 # 设置窗口初始位置和大小
-window_width = 1050
+window_width = 1100
 window_height = 48
 
 # 调整位置：窗口右边靠屏幕右边，下边靠屏幕底部
